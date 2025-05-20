@@ -6,10 +6,6 @@
     "runArgs": [
         "--env",
         "DISPLAY=${env:DISPLAY}",
-        "--volume",
-        "/tmp/.X11-unix:/tmp/.X11-unix",
-        //        "--device",
-        //        "/dev/dri",
         "-p",
         "9100:9100"
     ],
